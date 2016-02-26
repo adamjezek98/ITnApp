@@ -1,36 +1,176 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <group android:checkableBehavior="single">
+    <item android:title="">
+    <menu>
         <item
-            android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
-        <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
-        <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
-        <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
-    </group>
+            android:id="@+id/nav_home"
+            android:title="Homepage" />
 
-    <item android:title="Communicate">
+        <item  android:id="@+id/nav_profile"
+            android:title="Profil" />
+        <item
+            android:id="@+id/nav_notifications"
+            android:title="Upozornění" />
+        <item
+            android:id="@+id/nav_messages"
+            android:title="Zprávy" />
+   </menu>
+    </item>
+
+
+    <item android:title="Zpravodajství">
         <menu>
             <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
+                android:id="@+id/nav_zpravy_hw"
+                android:title="Hardware" />
             <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:id="@+id/nav_zpravy_web"
+                android:title="Web" />
+            <item
+                android:id="@+id/nav_zpravy_sw"
+                android:title="Software" />
+            <item
+                android:id="@+id/nav_zpravy_programming"
+                android:title="Programování" />
+            <item
+                android:id="@+id/nav_zpravy_mobile"
+                android:title="Mobily" />
+            <item
+                android:id="@+id/nav_zpravy_lectures"
+                android:title="Přednášky" />
         </menu>
     </item>
 
+    <item android:title="Trh">
+        <menu>
+            <item
+                android:id="@+id/nav_trh_forum"
+                android:title="Fórum" />
+            <item
+                android:id="@+id/nav_trh_sales"
+                android:title="Prodeje" />
+            <item
+                android:id="@+id/nav_trh_jobs"
+                android:title="Práce v IT" />
+
+        </menu>
+    </item>
+
+    <item android:title="Programování">
+        <menu>
+            <item
+                android:id="@+id/nav_prog_forum"
+                android:title="Fórum" />
+            <item
+                android:id="@+id/nav_prog_csharp"
+                android:title="C# .NET" />
+            <item
+                android:id="@+id/nav_prog_java"
+                android:title="Java" />
+            <item
+                android:id="@+id/nav_prog_php"
+                android:title="PHP" />
+            <item
+                android:id="@+id/nav_prog_html"
+                android:title="HTML a CSS" />
+            <item
+                android:id="@+id/nav_prog_javascript"
+                android:title="JavaScript" />
+            <item
+                android:id="@+id/nav_prog_cplusplus"
+                android:title="C a C++" />
+            <item
+                android:id="@+id/nav_prog_other"
+                android:title="Ostatní" />
+            <item
+                android:id="@+id/nav_prog_algorithm"
+                android:title="Algoritmy" />
+            <item
+                android:id="@+id/nav_prog_design"
+                android:title="Návrh" />
+            <item
+                android:id="@+id/nav_prog_howto"
+                android:title="Jak začít" />
+
+        </menu>
+    </item>
+
+    <item android:title="HW a SW">
+        <menu>
+            <item
+                android:id="@+id/nav_hwsw_forumhw"
+                android:title="Fórum HW" />
+            <item
+                android:id="@+id/nav_hwsw_forumsw"
+                android:title="Fórum SW" />
+            <item
+                android:id="@+id/nav_hwsw_pchw"
+                android:title="Hardware PC" />
+            <item
+                android:id="@+id/nav_hwsw_network"
+                android:title="Sítě" />
+            <item
+                android:id="@+id/nav_hwsw_win"
+                android:title="Windows" />
+            <item
+                android:id="@+id/nav_hwsw_linux"
+                android:title="Linux" />
+            <item
+                android:id="@+id/nav_hwsw_mobile"
+                android:title="Mobily" />
+            <item
+                android:id="@+id/nav_hwsw_apps"
+                android:title="Naše aplikace" />
+            <item
+                android:id="@+id/nav_hwsw_sw"
+                android:title="Software" />
+
+
+        </menu>
+    </item>
+
+    <item android:title="Ostatní">
+        <menu>
+            <item
+                android:id="@+id/nav_other_forum"
+                android:title="Fórum" />
+            <item
+                android:id="@+id/nav_other_gamemaker"
+                android:title="GameMaker" />
+            <item
+                android:id="@+id/nav_other_physics"
+                android:title="Fyzika" />
+            <item
+                android:id="@+id/nav_other_PR"
+                android:title="PR články" />
+            <item
+                android:id="@+id/nav_other_graphics"
+                android:title="Grafika" />
+            <item
+                android:id="@+id/nav_other_interviews"
+                android:title="Rozhovory" />
+            <item
+                android:id="@+id/nav_other_fun"
+                android:title="IT zábava" />
+            <item
+                android:id="@+id/nav_other_unsorted"
+                android:title="Nezařazené" />
+
+        </menu>
+    </item>
+
+
+    <group>
+
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Sdílet" />
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Nastavení" />
+
+    </group>
 </menu>

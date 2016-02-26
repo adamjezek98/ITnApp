@@ -1,10 +1,10 @@
 <resources>
     <string name="app_name">ITnetwork</string>
-    <string name="action_settings">Settings</string>
-    <string name="title_activity_main_app">MainApp</string>
+    <string name="action_settings">Nastavení</string>
+    <string name="title_activity_main_app">ITnetwork</string>
 
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Otevřít menu</string>
+    <string name="navigation_drawer_close">Zavřít menu</string>
 
-    <string name='tlacitko'>SuperTlacitko</string>
+
 </resources>
